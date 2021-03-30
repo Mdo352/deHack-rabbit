@@ -2,7 +2,14 @@ const express = require('express');
 
 const app = express();
 
-app.get('/', (req, res) => res.json({msg: 'Welcome to the PB hub'}));
+app.get('/', (req, res) =>
+    res.json({msg: 'Welcome to the PB hub'})
+);
+
+// Define Routes
+app.use('/api/users', require('./routes/users'));
+app.use('/api/auth', require('./routes/auth'));
+app.use('/api/budgets', require('./routes/budgets'));
 
 const PORT = process.env.PORT || 5000;
 
