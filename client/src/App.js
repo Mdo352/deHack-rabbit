@@ -4,6 +4,7 @@ import Navbar from './components/layout/Navbar';
 import Home from './components/pages/Home';
 import About from './components/pages/About';
 
+
 import BudgetState from './context/budget/BudgetState';
 import './App.css';
 
