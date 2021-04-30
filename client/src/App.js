@@ -3,6 +3,10 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Navbar from './components/layout/Navbar';
 import Home from './components/pages/Home';
 import About from './components/pages/About';
+import Chat from './components/pages/Chat';
+import Events from './components/pages/Events';
+import Homepage from  './components/pages/Homepage';
+import News from './components/pages/News';
 
 import BudgetState from './context/budget/BudgetState';
 import './App.css';
