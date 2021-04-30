@@ -7,7 +7,7 @@ import Chat from './components/pages/Chat';
 import Events from './components/pages/Events';
 import Homepage from  './components/pages/Homepage';
 import News from './components/pages/News';
-
+import './index.css';
 import BudgetState from './context/budget/BudgetState';
 import './App.css';
 
@@ -21,6 +21,12 @@ function App() {
             <Switch>
               <Route exact path='/' component={Home} />
               <Route exact path='/about' component={About} />
+              <Route exact path='/chat' component={Chat} />
+              <Route exact path='/news' component={News} />
+              <Route exact path='/events' component={Events} />
+              <Route exact path='/homepage' component={Homepage} />
+
+
             </Switch>
           </div>
         </Fragment>
