@@ -1,4 +1,7 @@
 import React,{ Component} from 'react';
+//import picture here
+import communityImg from '../../assets/img/vibrant-communities.jpg';
+//src = {}
 
 export default class News extends Component{
     render(){
@@ -26,7 +29,8 @@ export default class News extends Component{
         </ul><a className="btn btn-light action-button" role="button" href="#">Login&nbsp;</a>
       </div>
     </div>
-  </nav><img src="../../assets/img/vibrant-communities.jpg" />
+  </nav><img src ={communityImg} />
+
   <h4 />
   <h4 className="text-center" id="quote" style={{textAlign: 'center', color: 'rgb(92,94,96)'}} />
   <div />
