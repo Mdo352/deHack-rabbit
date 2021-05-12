@@ -16,3 +16,18 @@
   border-radius: 0.5rem;
 }
 
+#navcol-1 {
+  font-weight: 900;
+  border-spacing: initial;
+}
+
+.row {
+}
+
+.register-row {
+  display: block;
+  margin-left: 500px;
+  margin-right: auto;
+  width: 70%;
+}
+

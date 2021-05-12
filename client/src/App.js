@@ -7,10 +7,11 @@ import Chat from './components/pages/Chat';
 import Events from './components/pages/Events';
 import Homepage from  './components/pages/Homepage';
 import News from './components/pages/News';
-import Voter from './components/pages/Voter';
-
+import './index.css';
 import BudgetState from './context/budget/BudgetState';
 import './App.css';
+import Voter from './components/pages/Voter';
+import Projects from './components/pages/Projects';
 
 function App() {
   return (
@@ -25,6 +26,13 @@ function App() {
               <Route exact path='/vote-register' component={Voter} />
               <Route exact path='/news' component={News} />
               <Route exact path='/events' component={Events} />
+              <Route exact path='/chat' component={Chat} />
+              <Route exact path='/news' component={News} />
+              <Route exact path='/events' component={Events} />
+              <Route exact path='/homepage' component={Homepage} />
+              <Route exact path='/projects' component={Projects} />
+
+
             </Switch>
           </div>
         </Fragment>
