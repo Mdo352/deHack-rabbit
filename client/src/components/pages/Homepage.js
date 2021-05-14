@@ -1,4 +1,6 @@
 import React,{ Component} from 'react';
+import communityImg from '../../assets/img/community.png';
+
 
 export default class Homepage extends Component{
     render(){
