@@ -6,72 +6,134 @@ export default class Homepage extends Component{
     render(){
         return(
           <div>
-  <ul className="nav nav-tabs text-right d-md-flex justify-content-md-end">
-    <li className="nav-item"><a className="nav-link active" href="#">français</a></li>
-    <li className="nav-item"><a className="nav-link" href="#">español</a></li>
-    <li className="nav-item"><a className="nav-link" href="#">عربي</a></li>
-  </ul><nav className="navbar navbar-light navbar-expand-md navigation-clean-search">
-    <div className="container"><a className="navbar-brand" href="Home.html">Home</a><button data-toggle="collapse" data-target="#navcol-1" className="navbar-toggler"><span className="sr-only">Toggle navigation</span><span className="navbar-toggler-icon" /></button>
-      <div className="collapse navbar-collapse" id="navcol-1">
-        <ul className="navbar-nav">
-          <li className="nav-item"><a className="nav-link" href="Events.html">Events</a></li>
-          <li className="nav-item"><a className="nav-link" href="News.html">News</a></li>
-          <li className="nav-item"><a className="nav-link" href="Community-Chat.html">Chat</a></li>
-        </ul>
-        <form className="form-inline mr-auto" target="_self">
-          <div className="form-group"><label htmlFor="search-field"><i className="fa fa-search" /></label><input type="search" className="form-control search-field" id="search-field" name="search" /></div>
-        </form>
-        <ul className="navbar-nav">
-          <li className="nav-item"><a className="nav-link active" href="#">Donate</a></li>
-          <li className="nav-item"><a className="nav-link" href="#" /></li>
-          <li className="nav-item"><a className="nav-link" href="#" /></li>
-        </ul><a className="btn btn-light action-button" role="button" href="#">Login&nbsp;</a>
+  <div>
+    <ul className="nav nav-tabs text-right d-md-flex justify-content-md-end">
+      <li className="nav-item"><a className="nav-link active" href="#">français</a></li>
+      <li className="nav-item"><a className="nav-link" href="#">español</a></li>
+      <li className="nav-item"><a className="nav-link" href="#">عربي</a></li>
+    </ul><nav className="navbar navbar-light navbar-expand-md navigation-clean-search">
+      <div className="container"><a className="navbar-brand" href="Home.html">Home</a><button data-toggle="collapse" data-target="#navcol-1" className="navbar-toggler"><span className="sr-only">Toggle navigation</span><span className="navbar-toggler-icon" /></button>
+        <div className="collapse navbar-collapse" id="navcol-1">
+          <ul className="navbar-nav">
+            <li className="nav-item"><a className="nav-link" href="Events.html">Events</a></li>
+            <li className="nav-item"><a className="nav-link" href="News.html">News</a></li>
+            <li className="nav-item"><a className="nav-link" href="Voting.html">Voting</a></li>
+          </ul>
+          <form className="form-inline mr-auto" target="_self">
+            <div className="form-group"><label htmlFor="search-field"><i className="fa fa-search" /></label><input type="search" className="form-control search-field" id="search-field" name="search" /></div>
+          </form>
+          <ul className="navbar-nav">
+            <li className="nav-item"><a className="nav-link" href="#" /></li>
+            <li className="nav-item"><a className="nav-link" href="#" /></li>
+          </ul><a className="btn btn-light action-button" role="button" id="myButton" href="#">Login&nbsp;</a>
+        </div>
       </div>
-    </div>
-  </nav><img src="../../assets/img/vibrant-communities.jpg" />
+    </nav></div>
+  <img src="assets/img/community.png" />
   <h4 />
   <p />
-  <h4 className="text-center" id="quote" style={{textAlign: 'center', color: 'rgb(92,94,96)'}}>&nbsp;"There is no power for change greater than a community discovering what it cares about."</h4>
-  <p />
+  <h4 className="text-center" id="quote" style={{textAlign: 'center', color: 'rgb(92,94,96)'}}><strong>&nbsp;"There is no power for change greater than a community discovering what it cares about."</strong></h4>
+  <div className="d-block" style={{height: 30}}>
+    <div className="container" style={{height: 30}}>
+      <div className="row" style={{height: 30}} />
+    </div>
+  </div>
+  <div className="d-block" style={{height: 30}}>
+    <div className="container" style={{height: 30}}>
+      <div className="row" style={{height: 30}}>
+        <div className="col-md-12" style={{height: 30}}>
+          <div />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div className="d-block" style={{height: 30}}>
+    <div className="container" style={{height: 30}}>
+      <div className="row" style={{height: 30}}>
+        <div className="col-md-11 offset-md-1" style={{height: 30}}>
+          <div />
+        </div>
+      </div>
+    </div>
+  </div>
+  <p className="text-center"><strong>Our single, urgent goal: to increase accessibility for our citizens and see true democracy in action. We cannot do it without you so get involved and witness real money bring real change.</strong></p>
+  <div className="d-block" style={{height: 30}}>
+    <div className="container" style={{height: 30}}>
+      <div className="row" style={{height: 30}}>
+        <div className="col-md-12" style={{height: 30}}>
+          <div />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div className="d-block" style={{height: 30}}>
+    <div className="container" style={{height: 30}}>
+      <div className="row" style={{height: 30}}>
+        <div className="col-md-12" style={{height: 30}}>
+          <div />
+        </div>
+      </div>
+    </div>
+  </div><div className="container">
+    <div className="row">
+      <div className="col-md-4">
+        <div>
+          <p className="text-center"><span className="fa-stack fa-2x"><i className="fa fa-circle fa-stack-2x text-primary" /><i className="far fa-lightbulb fa-stack-1x fa-inverse" /></span></p>
+          <p className="lead text-center">Make decisions that directly affect you and your community.</p>
+          <p className="text-center"><button className="btn btn-primary" type="button">Sign Up<i className="fa fa-chevron-right" /></button></p>
+        </div>
+      </div>
+      <div className="col-md-4">
+        <div>
+          <p className="text-center"><span className="fa-stack fa-2x"><i className="fa fa-circle fa-stack-2x text-primary" /><i className="fas fa-fist-raised fa-stack-1x fa-inverse" /></span></p>
+          <p className="lead text-center">We have 16 on going projects that need to be voted on.</p>
+          <p className="text-center"><button className="btn btn-primary" type="button">Read More<i className="fa fa-chevron-right" /></button></p>
+        </div>
+      </div>
+      <div className="col-md-4">
+        <div>
+          <p className="text-center"><span className="fa-stack fa-2x"><i className="fa fa-circle fa-stack-2x text-primary" /><i className="fab fa-rocketchat fa-stack-1x fa-inverse" /></span></p>
+          <p className="lead text-center">Do you want to address an issue or simply get involved?</p>
+          <p className="text-center"><button className="btn btn-primary" type="button">Chat&nbsp;<i className="fa fa-chevron-right" /></button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div className="d-block" style={{height: 30}}>
+    <div className="container" style={{height: 30}}>
+      <div className="row" style={{height: 30}}>
+        <div className="col-md-12" style={{height: 30}}>
+          <div />
+        </div>
+      </div>
+    </div>
+  </div>
   <div />
   <ul className="nav nav-tabs">
     <li className="nav-item" />
   </ul>
+  <div className="d-block" style={{height: 30}}>
+    <div className="container" style={{height: 30}}>
+      <div className="row" style={{height: 30}}>
+        <div className="col-md-12" style={{height: 30}}>
+          <div />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div className="d-block" style={{height: 30}}>
+    <div className="container" style={{height: 30}}>
+      <div className="row" style={{height: 30}}>
+        <div className="col-md-12" style={{height: 30}}>
+          <div />
+        </div>
+      </div>
+    </div>
+  </div>
   <div className="container">
     <p className="text-sm-left text-md-left d-md-flex flex-nowrap justify-content-md-center align-items-md-center" />
   </div>
   <div />
-  <div className="carousel slide" data-ride="carousel" id="carousel-1">
-    <div className="carousel-inner">
-      <div className="carousel-item active">
-        <div className="jumbotron hero-nature carousel-hero">
-          <h1 className="hero-title">Participatory Budgeting</h1>
-          <p id="pb-paragraph" className="hero-subtitle" style={{textAlign: 'center'}}><br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tempor nunc odio, at volutpat diam fermentum id. Curabitur scelerisque aliquet fermentum. Mauris convallis efficitur rutrum. Nunc congue erat sed tempor varius. Praesent nunc ipsum, efficitur at pretium sit amet, mollis a quam. Integer vel elit sit amet augue volutpat placerat.<br /><br /></p>
-          <p><a className="btn btn-primary btn-lg hero-button" role="button" id="learnBtn" href="#">Learn more</a></p>
-        </div>
-      </div>
-      <div className="carousel-item">
-        <div className="jumbotron hero-photography carousel-hero">
-          <h1 className="hero-title">Hero Photography</h1>
-          <p className="hero-subtitle">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
-          <p><a className="btn btn-primary btn-lg hero-button" role="button" href="#">Learn more</a></p>
-        </div>
-      </div>
-      <div className="carousel-item">
-        <div className="jumbotron hero-technology carousel-hero">
-          <h1 className="hero-title">Hero Technology</h1>
-          <p className="hero-subtitle">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
-          <p><a className="btn btn-primary btn-lg hero-button" role="button" href="#">Learn more</a></p>
-        </div>
-      </div>
-    </div>
-    <div><a className="carousel-control-prev" href="#carousel-1" role="button" data-slide="prev"><i className="fa fa-chevron-left" /><span className="sr-only">Previous</span></a><a className="carousel-control-next" href="#carousel-1" role="button" data-slide="next"><i className="fa fa-chevron-right" /><span className="sr-only">Next</span></a></div>
-    <ol className="carousel-indicators">
-      <li data-target="#carousel-1" data-slide-to={0} className="active" />
-      <li data-target="#carousel-1" data-slide-to={1} />
-      <li data-target="#carousel-1" data-slide-to={2} />
-    </ol>
-  </div>
   <div />
   <div />
   <div>
@@ -221,7 +283,7 @@ export default class Homepage extends Component{
     </div>
     <div />
   </div>
-  </div>
+</div>
 
 
         )

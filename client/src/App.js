@@ -9,9 +9,20 @@ import Homepage from  './components/pages/Homepage';
 import News from './components/pages/News';
 import './index.css';
 import BudgetState from './context/budget/BudgetState';
-import './App.css';
 import Voter from './components/pages/Voter';
 import Projects from './components/pages/Projects';
+//css files
+import './App.css';
+import './assets/css/Bootstrap-Chat.css';
+import './assets/css/Call-to-Action-Div-with-Icon-Header--Button.css';
+import './assets/css/Carousel-Hero.css';
+import './assets/css/Latest-Events.css';
+import './assets/css/Login-Box-En.css';
+import './assets/css/Navbar-Dropdown-List-Item.css';
+import './assets/css/Navigation-with-Button.css';
+import './assets/css/Navigation-with-Search.css';
+import './assets/css/News-article-for-homepage-by-Ikbendiederiknl.css';
+import './assets/css/Newsletter-Subscription-Form.css';
 
 function App() {
   return (
