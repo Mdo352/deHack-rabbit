@@ -6,30 +6,7 @@ export default class Homepage extends Component{
     render(){
         return(
           <div>
-  <div>
-    <ul className="nav nav-tabs text-right d-md-flex justify-content-md-end">
-      <li className="nav-item"><a className="nav-link active" href="#">français</a></li>
-      <li className="nav-item"><a className="nav-link" href="#">español</a></li>
-      <li className="nav-item"><a className="nav-link" href="#">عربي</a></li>
-    </ul><nav className="navbar navbar-light navbar-expand-md navigation-clean-search">
-      <div className="container"><a className="navbar-brand" href="Home.html">Home</a><button data-toggle="collapse" data-target="#navcol-1" className="navbar-toggler"><span className="sr-only">Toggle navigation</span><span className="navbar-toggler-icon" /></button>
-        <div className="collapse navbar-collapse" id="navcol-1">
-          <ul className="navbar-nav">
-            <li className="nav-item"><a className="nav-link" href="Events.html">Events</a></li>
-            <li className="nav-item"><a className="nav-link" href="News.html">News</a></li>
-            <li className="nav-item"><a className="nav-link" href="Voting.html">Voting</a></li>
-          </ul>
-          <form className="form-inline mr-auto" target="_self">
-            <div className="form-group"><label htmlFor="search-field"><i className="fa fa-search" /></label><input type="search" className="form-control search-field" id="search-field" name="search" /></div>
-          </form>
-          <ul className="navbar-nav">
-            <li className="nav-item"><a className="nav-link" href="#" /></li>
-            <li className="nav-item"><a className="nav-link" href="#" /></li>
-          </ul><a className="btn btn-light action-button" role="button" id="myButton" href="#">Login&nbsp;</a>
-        </div>
-      </div>
-    </nav></div>
-  <img src="assets/img/community.png" />
+    <img src={communityImg} />
   <h4 />
   <p />
   <h4 className="text-center" id="quote" style={{textAlign: 'center', color: 'rgb(92,94,96)'}}><strong>&nbsp;"There is no power for change greater than a community discovering what it cares about."</strong></h4>

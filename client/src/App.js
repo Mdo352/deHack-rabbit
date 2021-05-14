@@ -23,6 +23,11 @@ import './assets/css/Navigation-with-Button.css';
 import './assets/css/Navigation-with-Search.css';
 import './assets/css/News-article-for-homepage-by-Ikbendiederiknl.css';
 import './assets/css/Newsletter-Subscription-Form.css';
+import './assets/css/Newsletter-v2.css';
+import './assets/css/Pretty-Registration-Form.css';
+import './assets/css/Process-Steps.css';
+import './assets/css/Projects-Horizontal.css';
+import './assets/css/styles.css';
 
 function App() {
   return (
@@ -38,11 +43,8 @@ function App() {
               <Route exact path='/events' component={Events} />
               <Route exact path='/chat' component={Chat} />
               <Route exact path='/news' component={News} />
-              <Route exact path='/events' component={Events} />
               <Route exact path='/homepage' component={Homepage} />
               <Route exact path='/projects' component={Projects} />
-
-
             </Switch>
           </div>
         </Fragment>

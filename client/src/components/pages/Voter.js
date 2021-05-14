@@ -5,8 +5,7 @@ import communityImg from '../../assets/img/community.png';
 const Voter = () => {
     return (
         <div>
-            <nav>
-            </nav><img src={communityImg} />
+            <img src={communityImg} />
             <h4></h4>
             <h4 className="text-center" id="quote" style={{textAlign: 'center',color: 'rgb(92,94,96)'}}></h4>
             <div></div>

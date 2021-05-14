@@ -16,6 +16,15 @@ const Navbar = ({ title, icon }) => {
                 <li>
                     <Link to='/about'>About</Link>
                 </li>
+                <li>
+                    <Link to='/vote-register'>Voting</Link>
+                </li>
+                <li>
+                    <Link to='/projects'>Projects</Link>
+                </li>
+                <li>
+                    <Link to='/news'>News</Link>
+                </li>
             </ul>
         </div>
     )
