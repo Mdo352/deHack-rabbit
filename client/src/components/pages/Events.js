@@ -1,10 +1,11 @@
 import React,{ Component} from 'react';
+import communityImg from '../../assets/img/community.png';
 
 export default class Events extends Component{
     render(){
         return(
         <div>
-    <img src="../../assets/img/vibrant-communities.jpg" />
+    <img src={communityImg} />
   <h4 />
   <h4 className="text-center" id="quote" style={{textAlign: 'center', color: 'rgb(92,94,96)'}} />
   <div />

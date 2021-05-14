@@ -1,7 +1,6 @@
 import React,{ Component} from 'react';
 //import picture here
-import communityImg from '../../assets/img/vibrant-communities.jpg';
-//src = {}
+import communityImg from '../../assets/img/community.png';
 
 export default class News extends Component{
     render(){
@@ -23,7 +22,7 @@ export default class News extends Component{
         <div className="col-md-9">
           <h1 className="newsblock-title">PBP News:</h1>
           <div className="row">
-            <div className="col-3 news-bg"><img src="../../assets/img/announcements.jpg" width="156px" /></div>
+            <div className="col-3 news-bg"><img src="assets/img/announcements.jpg" width="156px" /></div>
             <div className="col-9 news-bg">
               <h1 className="newsblock-title-under"><a href="https://www.participatorybudgeting.org/pbp-news-pb-for-school-districts-federal-funds/">PB for school districts &amp; federal funds</a><br /><br /></h1>
               <p>Welcome to the all new coolradio website! We hope you enjoy your stay, and happy listening everyone. To see our program, please check our page 'Program / Schedule'</p>
@@ -41,7 +40,7 @@ export default class News extends Component{
         <div className="col-md-9">
           <h1 className="newsblock-title" />
           <div className="row">
-            <div className="col-3 news-bg"><img src="../../assets/img/speaker-pb.jpeg" width="156px" /></div>
+            <div className="col-3 news-bg"><img src="assets/img/speaker-pb.jpeg" width="156px" /></div>
             <div className="col-9 news-bg">
               <h1 className="newsblock-title-under"><a href="https://www.participatorybudgeting.org/democracy-rising-expanding-participatory-budgeting-in-the-south/">Democracy Rising: Expanding Participatory Budgeting in the South</a><br /><br /></h1>
               <p>Welcome to the all new coolradio website! We hope you enjoy your stay, and happy listening everyone. To see our program, please check our page 'Program / Schedule'</p>
@@ -59,7 +58,7 @@ export default class News extends Component{
         </div>
         <div className="col-md-9">
           <div className="row">
-            <div className="col-3 news-bg"><img src="../../assets/img/better-pb.jpg" width="156px" /></div>
+            <div className="col-3 news-bg"><img src="assets/img/better-pb.jpg" width="156px" /></div>
             <div className="col-9 news-bg">
               <h1 className="newsblock-title-under"><a href="https://www.participatorybudgeting.org/4-ways-to-make-pb-bigger-and-better/">4 ways to make PB bigger and better</a><br /><br /></h1>
               <p>Welcome to the all new coolradio website! We hope you enjoy your stay, and happy listening everyone. To see our program, please check our page 'Program / Schedule'</p>
@@ -83,7 +82,7 @@ export default class News extends Component{
     </div>
   </section>
   <div>
-    <div style={{backgroundColor: 'rgba(58,47,47,0)', backgroundImage: 'url("../../assets/img/footer.png")', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', height: 366}}>
+    <div style={{backgroundColor: 'rgba(58,47,47,0)', backgroundImage: 'url("assets/img/footer.png")', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', height: 366}}>
       <div className="container">
         <hr />
         <ul className="list-inline" id="text_decoration" style={{marginTop: 30, fontFamily: 'ABeeZee, sans-serif'}}>
@@ -99,8 +98,6 @@ export default class News extends Component{
     </div>
   </div>
 </div>
-
-
-        )
+)
     }
 }
