@@ -1,7 +1,12 @@
 
   import React from 'react'
   import communityImg from '../../assets/img/community.png';
+  import deskImg from '../../assets/img/desk.jpg';
+  import loftImg from '../../assets/img/loft.jpg';
+  import buildingImg from '../../assets/img/building.jpg';
+  import minibusImg from '../../assets/img/minibus.jpeg';
 
+   
 
   const Projects = () => {
   return (
@@ -23,7 +28,7 @@
       <div className="row projects">
         <div className="col-sm-6 item">
           <div className="row">
-            <div className="col-md-12 col-lg-5"><a href="#"><img className="img-fluid" src="assets/img/desk.jpg" /></a></div>
+            <div className="col-md-12 col-lg-5"><a href="#"><img className="img-fluid" src={deskImg} /></a></div>
             <div className="col">
               <h3 className="name">Housing</h3>
               <h3 className="name">Location: Dorchester, MA</h3>
@@ -34,7 +39,7 @@
         </div>
         <div className="col-sm-6 item">
           <div className="row">
-            <div className="col-md-12 col-lg-5"><a href="#"><img className="img-fluid" src="assets/img/building.jpg" /></a></div>
+            <div className="col-md-12 col-lg-5"><a href="#"><img className="img-fluid" src={buildingImg} /></a></div>
             <div className="col">
               <h3 className="name">Side walks</h3>
               <h3 className="name">Location: Revere,MA</h3>
@@ -45,7 +50,7 @@
         </div>
         <div className="col-sm-6 item">
           <div className="row">
-            <div className="col-md-12 col-lg-5"><a href="#"><img className="img-fluid" src="assets/img/loft.jpg" /></a></div>
+            <div className="col-md-12 col-lg-5"><a href="#"><img className="img-fluid" src={loftImg} /></a></div>
             <div className="col">
               <h3 className="name">Street maintenance</h3>
               <h3 className="name">Location: Chelsea, MA</h3>
@@ -56,7 +61,7 @@
         </div>
         <div className="col-sm-6 item">
           <div className="row">
-            <div className="col-md-12 col-lg-5"><a href="#"><img className="img-fluid" src="assets/img/minibus.jpeg" /></a></div>
+            <div className="col-md-12 col-lg-5"><a href="#"><img className="img-fluid" src={minibusImg} /></a></div>
             <div className="col">
               <h3 className="name">Public restrooms</h3>
               <h3 className="name">Location:&nbsp; Boston, MA</h3>

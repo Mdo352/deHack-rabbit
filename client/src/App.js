@@ -1,6 +1,7 @@
 import React, {Fragment} from 'react';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Navbar from './components/layout/Navbar';
+import Navbar2 from './components/layout/Navbar2';
 //import Home from './components/pages/Home';  <Route exact path='/' component={Home} />
 import About from './components/pages/About';
 import Chat from './components/pages/Chat';
@@ -35,6 +36,7 @@ function App() {
       <Router>
         <Fragment>
           <Navbar />
+          <Navbar2/>
           <div className="container">
             <Switch>
               <Route exact path='/about' component={About} />
@@ -43,7 +45,7 @@ function App() {
               <Route exact path='/events' component={Events} />
               <Route exact path='/chat' component={Chat} />
               <Route exact path='/news' component={News} />
-              <Route exact path='/homepage' component={Homepage} />
+              <Route exact path='/' component={Homepage} />
               <Route exact path='/projects' component={Projects} />
             </Switch>
           </div>
