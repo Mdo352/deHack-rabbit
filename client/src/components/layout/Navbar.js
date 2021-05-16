@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 
 const Navbar = ({ title, icon }) => {
     return (
-        <div className='navbar bg-primary'>
+        <div className='navbar bg-primary nv1' style={{marginBottom:0,maxHeight:40}}>
             <h1>
                 <i className={icon} /> {title}
             </h1>
@@ -33,8 +33,8 @@ Navbar.protoTypes = {
 };
 
 Navbar.defaultProps = {
-    title: 'WE VOTE',
-    icon: 'fas fa-id-card-alt'
+    //title: 'WE VOTE',
+    //icon: 'fas fa-id-card-alt'
 };
 
 export default Navbar;
@@ -44,8 +44,6 @@ export default Navbar;
 
 /*
 import { useTranslation } from 'react-i18next';
-
-
 
 function Navbar(){
   const { t, i18n } = useTranslation();

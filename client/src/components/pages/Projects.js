@@ -10,6 +10,7 @@
 
   const Projects = () => {
   return (
+    <div>
       <div>
   <img src={communityImg} />
   <h4 />
@@ -23,7 +24,7 @@
     <div className="container">
       <div className="intro">
         <h2 className="text-center">Projects </h2>
-        <p className="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae. </p>
+        <p className="text-center">We create and support participatory budgeting processes that deepen democracy, build stronger communities, and make public budgets more equitable and effective.</p>
       </div>
       <div className="row projects">
         <div className="col-sm-6 item">
@@ -33,7 +34,7 @@
               <h3 className="name">Housing</h3>
               <h3 className="name">Location: Dorchester, MA</h3>
               <h3 className="name">Budget: $100,000</h3>
-              <p className="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida.</p><button className="btn btn-primary" type="button">EDIT</button><button className="btn btn-primary" type="button">DELETE</button>
+              <p className="description"> “Housing is one of the biggest challenges that we face—looking at affordable housing.</p><button className="btn btn-primary" type="button">EDIT</button><button className="btn btn-primary" type="button">DELETE</button>
             </div>
           </div>
         </div>
@@ -44,7 +45,7 @@
               <h3 className="name">Side walks</h3>
               <h3 className="name">Location: Revere,MA</h3>
               <h3 className="name">Budget: $230,000</h3>
-              <p className="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida.</p><button className="btn btn-primary" type="button">EDIT</button><button className="btn btn-primary" type="button">DELETE</button>
+              <p className="description">Residents can vote to get sidewalks, alleys and streets resurfaced. Look at what projects we are working on.</p><button className="btn btn-primary" type="button">EDIT</button><button className="btn btn-primary" type="button">DELETE</button>
             </div>
           </div>
         </div>
@@ -55,7 +56,7 @@
               <h3 className="name">Street maintenance</h3>
               <h3 className="name">Location: Chelsea, MA</h3>
               <h3 className="name">Budget: $140,000</h3>
-              <p className="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida.</p><button className="btn btn-primary" type="button">EDIT</button><button className="btn btn-primary" type="button">DELETE</button>
+              <p className="description">We know that protecting the safety and well-being of all of our communities means investing in safe roads</p><button className="btn btn-primary" type="button">EDIT</button><button className="btn btn-primary" type="button">DELETE</button>
             </div>
           </div>
         </div>
@@ -66,43 +67,24 @@
               <h3 className="name">Public restrooms</h3>
               <h3 className="name">Location:&nbsp; Boston, MA</h3>
               <h3 className="name">Budget: $150,000</h3>
-              <p className="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida.</p><button className="btn btn-primary" type="button">EDIT</button><button className="btn btn-primary" type="button">DELETE</button>
+              <p className="description">This proposal aims to build a third standalone outdoor public toilet in a high foot traffic area.</p><button className="btn btn-primary" type="button">EDIT</button><button className="btn btn-primary" type="button">DELETE</button>
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <p style={{textAlign: 'center', fontSize: 25}}><strong>Timeline</strong></p>
+  <p style={{textAlign: 'left', fontSize: 25}}><strong>Timeline</strong></p>
   <div />
   <div className="container">
-    <div className="row"><div className="col-md-3">
-        <div className="primary-color primary-background-color step-base">
-          <strong className="step-title">Step 1</strong>
-          <p className="step-short-desc">Brainstorm new ideas</p>
-          <div className="secondary-color secondary-background-color caption-content">
-            <p>Details about first step. Min-height of 7.5em, padding .5em 1rem. Max-height: 15em.</p>
-          </div>
-        </div>
-        <div className="col-md-3">
-          <div className="primary-color primary-background-color step-base">
-            <strong className="step-title">Step 2</strong>
-            <p className="step-short-desc">Brainstorm new ideas</p>
-            <div className="secondary-color secondary-background-color caption-content">
-              <p>Details about first step. Min-height of 7.5em, padding .5em 1rem. Max-height: 15em.</p>
-            </div>
-          </div>
-          <div className="col-md-3" />
-          <div className="col-md-3" />
-        </div>
-      </div><div className="container steps-container">
+      <div className="container steps-container">
         <div className="col-6 col-sm-4 col-md-2 process-step">
           <div className="primary-color primary-background-color step-base"><strong className="step-title">Step 1</strong>
             <p className="step-short-desc">Brainstorm new ideas</p>
           </div>
           <div className="step-caption">
             <div className="secondary-color secondary-background-color caption-content">
-              <p>Details about first step. Min-height of 7.5em, padding .5em 1rem. Max-height: 15em.</p>
+              <p>Details about first step. </p>
             </div>
           </div>
         </div>
@@ -138,7 +120,9 @@
         </div>
       </div>
       <div />
+      </div>
       <hr />
+      </div>
       <div className="d-block" style={{height: 30}} />
       <div />
       <div>
@@ -160,8 +144,7 @@
         </div>
       </div>
       </div>
-</div>
-</div>
+
       )
      }
 

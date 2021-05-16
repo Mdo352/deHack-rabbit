@@ -52,7 +52,8 @@ export default class Homepage extends Component {
                 </div>
               </div>
             </div>
-          </div><div className="container" style={{width: '80%'}}>
+          </div>
+          <div className="container" style={{width: '80%'}}>
   <div className="row" style={{width: '90%', textAlign: 'center'}}>
     <div className="col-md-4 padding-0">
       <div>
@@ -71,7 +72,7 @@ export default class Homepage extends Component {
     <div className="col-md-4 padding-0">
       <div>
         <p className="text-center"><span className="fa-stack fa-2x"><i className="fa fa-circle fa-stack-2x text-primary" /><i className="fab fa-rocketchat fa-stack-1x fa-inverse" /></span></p>
-        <p className="lead text-center">Do you want to address an issue or simply get involved in your community?</p>
+        <p className="lead text-center">Do you want to address an issue in your community?</p>
         <p className="text-center"><button className="btn btn-primary" type="button">Chat&nbsp;<i className="fa fa-chevron-right" /></button></p>
       </div>
     </div>
@@ -123,26 +124,24 @@ export default class Homepage extends Component {
                     <h6 className="text-primary font-weight-bold m-0">Projects</h6>
                   </div>
                   <div className="card-body">
-                    <h4 className="small font-weight-bold">AC in high schools<span className="float-right">40%</span></h4>
+                    <h4 className="small font-weight-bold">AC in high schools<span className="float-right"><br></br>40%</span></h4>
                     <div className="progress mb-4">
                       <div className="progress-bar bg-warning" aria-valuenow={40} aria-valuemin={0} aria-valuemax={100} style={{ width: '40%' }}><span className="sr-only">40%</span></div>
                     </div>
-                    <h4 className="small font-weight-bold">Bike lanes<span className="float-right">60%</span></h4>
+                    <h4 className="small font-weight-bold">Bike lanes<span className="float-right"><br></br>60%</span></h4>
                     <div className="progress mb-4">
                       <div className="progress-bar bg-primary" aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} style={{ width: '60%' }}><span className="sr-only">60%</span></div>
                     </div>
-                    <h4 className="small font-weight-bold">Bus routes<span className="float-right">80%</span></h4>
+                    <h4 className="small font-weight-bold">Bus routes<span className="float-right"><br></br>80%</span></h4>
                     <div className="progress mb-4">
                       <div className="progress-bar bg-info" aria-valuenow={80} aria-valuemin={0} aria-valuemax={100} style={{ width: '80%' }}><span className="sr-only">80%</span></div>
                     </div>
-                    <h4 className="small font-weight-bold">Housing for the homeless<span className="float-right">Complete!</span></h4>
+                    <h4 className="small font-weight-bold">Housing for the homeless<span className="float-right"><br></br>Complete!</span></h4>
                     <div className="progress mb-4">
-                      <div className="progress-bar bg-success" aria-valuenow={100} aria-valuemin={0} aria-valuemax={100} style={{ width: '100%' }}><span className="sr-only">100%</span></div>
+                      <div className="progress-bar bg-success" aria-valuenow={100} aria-valuemin={0} aria-valuemax={100} style={{ width: '100%' }}><span className="sr-only">100%</span><br></br></div>
+                      <br></br>
                     </div>
                   </div>
-                </div>
-                <div className="card shadow mb-4">
-                  <ul className="list-group list-group-flush" />
                 </div>
                 <div />
               </div>
@@ -152,7 +151,7 @@ export default class Homepage extends Component {
                     <div className="card text-white bg-primary shadow">
                       <div className="card-body">
                         <p className="m-0">Bike lanes</p>
-                        <p className="text-center text-white-50 d-xl-flex justify-content-center align-content-center flex-nowrap card-text small m-0"><br />Our goal is to create more bike routes that can provide safe and comfortable places for biking. As a result improve our physical and psychological health, and strengthen our communities.&nbsp;<br /><br /></p>
+                        <p className="text-center text-white-50 d-xl-flex justify-content-center align-content-center flex-nowrap card-text small m-0">Our goal is to create more bike routes that can provide safe and comfortable places for biking.</p>
                         <p className="text-white-50 small m-0">In progress</p>
                       </div>
                     </div>
@@ -160,8 +159,8 @@ export default class Homepage extends Component {
                   <div className="col-lg-6 mb-4">
                     <div className="card text-white bg-success shadow">
                       <div className="card-body">
-                        <p className="m-0"><strong>Housing for the homeless</strong><br /></p>
-                        <p className="text-white-50 small m-0">Reduce homelessness by providing&nbsp; people who struggle on our streets and in shelters with safe, dignified housing and connecting them to the supports they need to rebuild their lives.<br /><br /></p>
+                        <p className="m-0"><strong>Housing</strong><br /></p>
+                        <p className="text-white-50 small m-0">Reduce homelessness by providing&nbsp; people who struggle on our streets and in shelters with safe, dignified housing</p>
                         <p className="text-white-50 small m-0">done</p>
                       </div>
                     </div>
@@ -170,7 +169,7 @@ export default class Homepage extends Component {
                     <div className="card text-white bg-info shadow">
                       <div className="card-body">
                         <p className="m-0"><strong>Bus routes</strong><br /></p>
-                        <p className="text-white-50 small m-0">Due to the shortages of bus routes, our citizens are encountering problems getting around. This<br />is a major step in our efforts to improve the bus service system.<br /></p>
+                        <p className="text-white-50 small m-0">Due to the shortages of bus routes, our citizens are encountering problems getting around.<br /></p>
                         <p className="text-white-50 small m-0">In progress</p>
                       </div>
                     </div>
@@ -179,16 +178,10 @@ export default class Homepage extends Component {
                     <div className="card text-white bg-warning shadow">
                       <div className="card-body">
                         <p className="m-0"><strong>AC in high schools</strong><br /></p>
-                        <p className="text-white-50 small m-0">We are updating the heating, ventilation and air conditioning systems&nbsp; of various schools that need replacement in order to create healthy environments for students.</p>
+                        <p className="text-white-50 small m-0">We are updating the heating, ventilation and air conditioning systems&nbsp; of various schools.</p>
                         <p className="text-white-50 small m-0">In progress</p>
                       </div>
                     </div>
-                  </div>
-                  <div className="col-lg-6 mb-4">
-                    <div className="card text-white bg-danger shadow" />
-                  </div>
-                  <div className="col-lg-6 mb-4">
-                    <div className="card text-white bg-secondary shadow" />
                   </div>
                 </div>
               </div>

@@ -29,6 +29,9 @@ import './assets/css/Pretty-Registration-Form.css';
 import './assets/css/Process-Steps.css';
 import './assets/css/Projects-Horizontal.css';
 import './assets/css/styles.css';
+//import bootstrap
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (
@@ -49,6 +52,7 @@ function App() {
               <Route exact path='/projects' component={Projects} />
             </Switch>
           </div>
+          //footer
         </Fragment>
       </Router>
     </BudgetState>

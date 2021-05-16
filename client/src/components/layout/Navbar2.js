@@ -5,7 +5,8 @@ import {Link} from 'react-router-dom';
 
 const Navbar2 = ({ title, icon }) => {
     return (
-        <div className='navbar bg-primary'>
+        <div className='navbar bg-primary nv2' style={{maxHeight:55}}>
+            
             <h1>
                 <i className={icon} /> {title}
             </h1>
@@ -37,8 +38,8 @@ Navbar2.protoTypes = {
 };
 
 Navbar2.defaultProps = {
-    //title: 'WE VOTE',
-    //icon: 'fas fa-id-card-alt'
+    title: 'WE VOTE',
+    icon: 'fas fa-id-card-alt'
 };
 
 export default Navbar2;
