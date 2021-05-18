@@ -1,0 +1,91 @@
+.bootstrap_chat {
+  background-color: #74EBD5;
+  min-height: 100vh;
+}
+
+.text-small {
+  font-size: 0.9rem;
+}
+
+.messages-box, .chat-box {
+  height: 510px;
+  overflow-y: scroll;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+#navcol-1 {
+  font-weight: 900;
+  border-spacing: initial;
+}
+
+.row {
+}
+
+.register-row {
+  display: block;
+  margin-left: 500px;
+  margin-right: auto;
+  width: 70%;
+}
+
+p {
+  display: block;
+}
+
+.padding-0 {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.col-md-3 {
+  max-width: 200px;
+  align-content: center;
+}
+
+#timeline-row {
+}
+
+#timeline-row {
+}
+
+#timeline-row {
+}
+
+.col-md-3 {
+}
+
+@keyframes example {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: yellow;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: blue;
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: green;
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.timeline-h2 {
+  text-align: center;
+}
+
