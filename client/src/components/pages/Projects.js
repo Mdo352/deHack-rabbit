@@ -1,12 +1,12 @@
 
   import React from 'react'
+
   import communityImg from '../../assets/img/community.png';
   import deskImg from '../../assets/img/desk.jpg';
   import loftImg from '../../assets/img/loft.jpg';
   import buildingImg from '../../assets/img/building.jpg';
   import minibusImg from '../../assets/img/minibus.jpeg';
-
-   
+  import footerImg from '../../assets/img/footer.png';   
 
   const Projects = () => {
   return (
@@ -128,7 +128,7 @@
       <div>
         <div />
         <div>
-          <div style={{backgroundColor: 'rgba(58,47,47,0)', backgroundImage: 'url("assets/img/footer.png")', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', height: 366}}>
+          <div style={{backgroundColor: 'rgba(58,47,47,0)', backgroundImage: `url(${footerImg})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', height: 366}}>
             <div className="container">
               <h1 className="text-center" style={{fontFamily: 'ABeeZee, sans-serif', fontSize: 46, color: 'rgb(0,0,0)'}} />
               <ul className="list-inline" id="text_decoration" style={{marginTop: 30, fontFamily: 'ABeeZee, sans-serif'}}>
