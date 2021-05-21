@@ -1,5 +1,5 @@
 import React, { useReducer } from 'react';
-import uuid from 'uuid';
+import {v4 as uuid} from 'uuid';
 import BudgetContext from './budgetContext';
 import budgetReducer from './budgetReducer';
 import {
@@ -33,18 +33,32 @@ const BudgetState = props => {
                 email: 'nomnomnom@eat.com',
                 website: 'snickers.com'
             }
-        ]
+        ],
+        current: null
     };
 
     const [state, dispatch] = useReducer(budgetReducer, initialState);
 
     // Add Budget
+    const addBudget = budget => {
+        budget.id = uuid();
+        dispatch({ type:ADD_BUDGET, payload: budget });
+    };
     
     // Delete Budget
+    const deleteBudget = id => {
+        dispatch({ type:DELETE_BUDGET, payload: id });
+    };
 
     // Set Current Budget
+    const setCurrent = budget => {
+        dispatch({ type:SET_CURRENT, payload: budget });
+    };
 
     // Clear Current Budget
+    const clearCurrent = () => {
+        dispatch({ type:CLEAR_CURRENT });
+    };
 
     // Update Budget
 
@@ -55,7 +69,12 @@ const BudgetState = props => {
     return (
         <BudgetContext.Provider
             value= {{
-                budgets : state.budgets
+                budgets : state.budgets,
+                current : state.current,
+                addBudget,
+                deleteBudget,
+                setCurrent,
+                clearCurrent
             }}
         >
             { props.children}

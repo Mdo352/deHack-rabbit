@@ -1,4 +1,5 @@
 import React, { Fragment, useContext } from 'react';
+import BudgetItem from '../budgets/BudgetItem';
 import BudgetContext from '../../context/budget/budgetContext';
 
 const Budgets = () => {
@@ -8,7 +9,7 @@ const Budgets = () => {
     return (
         <Fragment>
             {budgets.map(budget => (
-                <h3 key={budget.id}>{budget.name}</h3>
+                <BudgetItem key={budget.id} budget={budget} />
             ))}
         </Fragment>
     )
