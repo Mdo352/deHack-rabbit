@@ -1,5 +1,7 @@
 import React from 'react'
+
 import communityImg from '../../assets/img/community.png';
+import footerImg from '../../assets/img/footer.png';
 
 
 const Voter = () => {
@@ -41,39 +43,39 @@ const Voter = () => {
                                 style={{ marginRight: '400px', padding: '30px', fontWeight: '500px' }}>
                                 <h1>Registration Form</h1>
                                 <div className="form-row form-group">
-                                    <div className="col-sm-4 label-column"><label className="col-form-label" for="name-input-field">Full Name </label></div>
+                                    <div className="col-sm-4 label-column"><label className="col-form-label" htmlFor="name-input-field">Full Name </label></div>
                                     <div className="col-sm-6 input-column"><input className="form-control" type="text" /></div>
                                 </div>
                                 <div className="form-row form-group">
-                                    <div className="col-sm-4 label-column"><label className="col-form-label" for="name-input-field">Email </label></div>
+                                    <div className="col-sm-4 label-column"><label className="col-form-label" htmlFor="name-input-field">Email </label></div>
                                     <div className="col-sm-6 input-column"><input className="form-control" type="text" /></div>
                                 </div>
                                 <div className="form-row form-group">
-                                    <div className="col-sm-4 label-column"><label className="col-form-label" for="email-input-field">Address </label></div>
+                                    <div className="col-sm-4 label-column"><label className="col-form-label" htmlFor="email-input-field">Address </label></div>
                                     <div className="col-sm-6 input-column"><input className="form-control" type="email" /></div>
                                 </div>
                                 <div className="form-row form-group">
-                                    <div className="col-sm-4 label-column"><label className="col-form-label" for="pawssword-input-field">Last 4 digits of ssn</label></div>
+                                    <div className="col-sm-4 label-column"><label className="col-form-label" htmlFor="pawssword-input-field">Last 4 digits of ssn</label></div>
                                     <div className="col-sm-6 input-column"><input className="form-control" type="password" /></div>
                                 </div>
                                 <div className="form-row form-group">
-                                    <div className="col-sm-4 label-column"><label className="col-form-label" for="pawssword-input-field">Password </label></div>
+                                    <div className="col-sm-4 label-column"><label className="col-form-label" htmlFor="pawssword-input-field">Password </label></div>
                                     <div className="col-sm-6 input-column"><input className="form-control" type="password" /></div>
                                 </div>
                                 <div className="form-row form-group">
-                                    <div className="col-sm-4 label-column"><label className="col-form-label" for="repeat-pawssword-input-field">Repeat Password </label></div>
+                                    <div className="col-sm-4 label-column"><label className="col-form-label" htmlFor="repeat-pawssword-input-field">Repeat Password </label></div>
                                     <div className="col-sm-6 input-column"><input className="form-control" type="password" /></div>
                                 </div>
 
                                 <div className="form-row form-group">
-                                    <div className="col-sm-4 label-column"><label className="col-form-label" for="dropdown-input-field">Gender </label></div>
+                                    <div className="col-sm-4 label-column"><label className="col-form-label" htmlFor="dropdown-input-field">Gender </label></div>
                                     <div className="col-sm-4 input-column">
                                         <div className="dropdown"><button className="btn btn-light dropdown-toggle" aria-expanded="false" data-toggle="dropdown" type="button">Select </button>
                                             <div className="dropdown-menu"><a className="dropdown-item" href="#">Female</a><a className="dropdown-item" href="#">Male</a><a className="dropdown-item" href="#">Non-binary</a></div>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="form-check"><input className="form-check-input" type="checkbox" id="formCheck-2" /><label className="form-check-label" for="formCheck-2">I&#39;ve read and accepted the terms and conditions</label></div><button className="btn btn-light submit-button" type="button" style={{ backgroundColor: '#0276FD', color: 'white' }}>Submit Form</button>
+                                <div className="form-check"><input className="form-check-input" type="checkbox" id="formCheck-2" /><label className="form-check-label" htmlFor="formCheck-2">I&#39;ve read and accepted the terms and conditions</label></div><button className="btn btn-light submit-button" type="button" style={{ backgroundColor: '#0276FD', color: 'white' }}>Submit Form</button>
                             </form>
                         </div>
                         <div id="list-profile" className="tab-pane fade" role="tabpanel" onClick>
@@ -90,7 +92,7 @@ const Voter = () => {
             <div></div>
             <div>
                 <div>
-                    <div style={{ backgroundColor: 'rgba(58,47,47,0)', backgroundImage: 'url(&quot;assets/img/footer.png&quot;)', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', height: '366px' }}>
+                    <div style={{ backgroundColor: 'rgba(58,47,47,0)', backgroundImage: `url(${footerImg})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', height: '366px' }}>
                         <div className="container">
                             <h1 className="text-center" style={{ fontFamily: 'ABeeZee, sans-serif', fontSize: '46px', color: 'rgb(0,0,0)' }}></h1>
                             <ul className="list-inline" id="text_decoration" style={{ marginTop: '30px', fontFamily: 'ABeeZee, sans-serif' }}>
