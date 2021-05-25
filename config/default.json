@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://Mike:1Mifflin@dehack-rabbit.0wl94.mongodb.net/rabbit?retryWrites=true&w=majority",
+    "jwtSecret": "secret"
+}
