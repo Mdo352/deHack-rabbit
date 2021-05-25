@@ -1,6 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import ArticleItem from "./ArticleItem";
 import Spinner from '../layout/Spinner';
 import PropTypes from 'prop-types';
 
@@ -27,10 +25,10 @@ const Articles = ({ article, loading }) => {
                             <div className="row">
                                 <div className="col-md-2" />
                                 <div className="col-md-9">
-                                <h1 className="newsblock-title" />
+                                {/* <h1 className="newsblock-title" /> */}
                             <div className="row">
                                 <div className="col-9 news-bg">
-                                    <img src={art.urlToImage} width="156px" />
+                                    <img src={art.urlToImage} alt="Article Headline" width="156px" />
                                     <h1 className="newsblock-title-under"> <a href={art.url} > {art.title} </a></h1>                                    
                                     <p>{art.description}</p>
                                     <p>Author: {art.author}</p>

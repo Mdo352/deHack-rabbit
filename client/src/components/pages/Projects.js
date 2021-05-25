@@ -12,9 +12,8 @@
   return (
     <div>
       <div>
-  <img src={communityImg} />
-  <h4 />
-  <h4 className="text-center" id="quote" style={{textAlign: 'center', color: 'rgb(92,94,96)'}} />
+  <img src={communityImg} alt='community volunteers' />
+  {/* <h4 className="text-center" id="quote" style={{textAlign: 'center', color: 'rgb(92,94,96)'}} /> */}
   <div />
   <ul className="nav nav-tabs">
     <li className="nav-item" />
@@ -29,7 +28,7 @@
       <div className="row projects">
         <div className="col-sm-6 item">
           <div className="row">
-            <div className="col-md-12 col-lg-5"><a href="#"><img className="img-fluid" src={deskImg} /></a></div>
+            <div className="col-md-12 col-lg-5"><a href="/"><img className="img-fluid" src={deskImg} alt='laptop computer' /></a></div>
             <div className="col">
               <h3 className="name">Housing</h3>
               <h3 className="name">Location: Dorchester, MA</h3>
@@ -40,7 +39,7 @@
         </div>
         <div className="col-sm-6 item">
           <div className="row">
-            <div className="col-md-12 col-lg-5"><a href="#"><img className="img-fluid" src={buildingImg} /></a></div>
+            <div className="col-md-12 col-lg-5"><a href="/"><img className="img-fluid" src={buildingImg} alt='building facade' /></a></div>
             <div className="col">
               <h3 className="name">Side walks</h3>
               <h3 className="name">Location: Revere,MA</h3>
@@ -51,7 +50,7 @@
         </div>
         <div className="col-sm-6 item">
           <div className="row">
-            <div className="col-md-12 col-lg-5"><a href="#"><img className="img-fluid" src={loftImg} /></a></div>
+            <div className="col-md-12 col-lg-5"><a href="/"><img className="img-fluid" src={loftImg} alt='apartment loft' /></a></div>
             <div className="col">
               <h3 className="name">Street maintenance</h3>
               <h3 className="name">Location: Chelsea, MA</h3>
@@ -62,7 +61,7 @@
         </div>
         <div className="col-sm-6 item">
           <div className="row">
-            <div className="col-md-12 col-lg-5"><a href="#"><img className="img-fluid" src={minibusImg} /></a></div>
+            <div className="col-md-12 col-lg-5"><a href="/"><img className="img-fluid" src={minibusImg} alt='transit trolley' /></a></div>
             <div className="col">
               <h3 className="name">Public restrooms</h3>
               <h3 className="name">Location:&nbsp; Boston, MA</h3>
@@ -104,7 +103,7 @@
           </div>
           <div className="step-caption">
             <div className="secondary-color secondary-background-color caption-content">
-              <p>Some text above image.</p><img src="https://unsplash.it/1800/900?image=1051" />
+              <p>Some text above image.</p><img src="https://unsplash.it/1800/900?image=1051" alt='timeline' />
             </div>
           </div>
         </div>
@@ -130,15 +129,17 @@
         <div>
           <div style={{backgroundColor: 'rgba(58,47,47,0)', backgroundImage: `url(${footerImg})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', height: 366}}>
             <div className="container">
-              <h1 className="text-center" style={{fontFamily: 'ABeeZee, sans-serif', fontSize: 46, color: 'rgb(0,0,0)'}} />
+              {/* <h1 className="text-center" style={{fontFamily: 'ABeeZee, sans-serif', fontSize: 46, color: 'rgb(0,0,0)'}} /> */}
               <ul className="list-inline" id="text_decoration" style={{marginTop: 30, fontFamily: 'ABeeZee, sans-serif'}}>
-                <li className="list-inline-item"><a className="decoration" style={{color: 'rgb(0,0,0)', fontSize: 20, marginRight: 10}} href="#">Home</a></li>
-                <li className="list-inline-item"><a style={{fontSize: 20, color: 'rgb(0,0,0)', marginRight: 10}} href="#">Chat</a></li>
-                <li className="list-inline-item"><a style={{fontSize: 20, color: 'rgb(0,0,0)', marginRight: 10}} href="#">About</a></li>
-                <li className="list-inline-item"><a style={{color: 'rgb(0,0,0)', fontSize: 20, marginRight: 10}} href="#">Donation</a></li>
-                <li className="list-inline-item"><a style={{color: 'rgb(0,0,0)', fontSize: 20}} href="#">News</a></li>
+                <li className="list-inline-item"><a className="decoration" style={{color: 'rgb(0,0,0)', fontSize: 20, marginRight: 10}} href="/">Home</a></li>
+                <li className="list-inline-item"><a style={{fontSize: 20, color: 'rgb(0,0,0)', marginRight: 10}} href="/chat">Chat</a></li>
+                <li className="list-inline-item"><a style={{fontSize: 20, color: 'rgb(0,0,0)', marginRight: 10}} href="/about">About</a></li>
+                <li className="list-inline-item"><a style={{color: 'rgb(0,0,0)', fontSize: 20, marginRight: 10}} href="/donate">Donation</a></li>
+                <li className="list-inline-item"><a style={{color: 'rgb(0,0,0)', fontSize: 20}} href="/news">News</a></li>
               </ul>
-              <p className="text-center" style={{marginTop: 30, marginBottom: 15}}><a style={{fontSize: 35, marginRight: 30}} href="#"><i className="fa fa-facebook-square" style={{color: 'rgb(0,0,0)', marginRight: 0}} /></a><a style={{fontSize: 35, marginRight: 30}} href="#"><i className="fa fa-instagram" style={{color: 'rgb(0,0,0)', marginRight: 0}} /></a><a style={{fontSize: 35, marginRight: 30}} href="#"><i className="fa fa-linkedin-square" style={{color: 'rgb(0,0,0)', marginRight: 2}} /></a><a style={{fontSize: 35, marginRight: 30}} href="#" /><a style={{fontSize: 35}} href="#" /></p>
+              {/* <p className="text-center" style={{marginTop: 30, marginBottom: 15}}><a style={{fontSize: 35, marginRight: 30}} href="#"><i className="fa fa-facebook-square" style={{color: 'rgb(0,0,0)', marginRight: 0}} /></a><a style={{fontSize: 35, marginRight: 30}} href="#"><i className="fa fa-instagram" style={{color: 'rgb(0,0,0)', marginRight: 0}} /></a><a style={{fontSize: 35, marginRight: 30}} href="#"><i className="fa fa-linkedin-square" style={{color: 'rgb(0,0,0)', marginRight: 2}} /></a><a style={{fontSize: 35, marginRight: 30}} href="#" /><a style={{fontSize: 35}} href="#" /></p> */}
+              <p className="text-center" style={{ marginTop: '30px', marginBottom: '15px' }}><a style={{ fontSize: '35px', marginRight: '30px' }} href="/social"><i className="fa fa-facebook-square" style={{ color: 'rgb(0,0,0)', marginRight: '0px' }}></i></a><a style={{ fontSize: '35px', marginRight: '30px' }} href="/insta"><i className="fa fa-instagram" style={{ color: 'rgb(0,0,0)', marginRight: '0px' }}></i></a><a style={{ fontSize: '35px', marginRight: '30px' }} href="/linkedin"><i className="fa fa-linkedin-square" style={{ color: 'rgb(0,0,0)', marginRight: '2px' }}></i></a></p>
+
             </div>
           </div>
         </div>

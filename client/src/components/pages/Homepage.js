@@ -7,8 +7,7 @@ export default class Homepage extends Component {
     return (
       <div>
         <div>
-          <img src={communityImg} />
-          <h4 />
+          <img src={communityImg} alt='community volunteers' />
           <p />
           <h4 className="text-center" id="quote" style={{ textAlign: 'center', color: 'rgb(92,94,96)' }}><strong>&nbsp;"There is no power for change greater than a community discovering what it cares about."</strong></h4>
           <div className="d-block" style={{ height: 30 }}>
@@ -209,7 +208,7 @@ export default class Homepage extends Component {
                       <div className="my-1">
                         <div className="custom-control custom-checkbox mr-sm-2">
                           <input type="checkbox" className="custom-control-input" id="customControlAutosizing1" />
-                          <label className="custom-control-label" htmlFor="customControlAutosizing1">I have read and agree to the <a href="#" className="text-decoration-none">terms and conditions</a></label>
+                          <label className="custom-control-label" htmlFor="customControlAutosizing1">I have read and agree to the <a href="/" className="text-decoration-none">terms and conditions</a></label>
                         </div>
                       </div>
                     </div>
@@ -219,33 +218,33 @@ export default class Homepage extends Component {
                 <div className="col-lg-6 ml-auto">
                   <div className="d-block d-md-flex border-bottom pb-3 text-uppercase">
                     <h6 className="no-shrink font-weight-medium align-self-center m-b-0">Latest News</h6>
-                    <a className="ml-auto text-danger align-self-center text-decoration-none" href="#">View All</a>
+                    <a className="ml-auto text-danger align-self-center text-decoration-none" href="/">View All</a>
                   </div>
                   <div className="row blog-row mt-4 mb-3">
                     <div className="col-md-4">
-                      <a href="#"><img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/blog/blog-home/img12.jpg" alt="wrapkit" className="img-fluid" /></a>
+                      <a href="/"><img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/blog/blog-home/img12.jpg" alt="wrapkit" className="img-fluid" /></a>
                     </div>
                     <div className="col-md-8">
-                      <h5><a href="#" className="text-decoration-none">The Universe is all of time and space and its contents.</a></h5>
-                      <p>by <a href="#" className="text-decoration-none">Mark Freeman</a> / 23 May 2017</p>
+                      <h5><a href="/" className="text-decoration-none">The Universe is all of time and space and its contents.</a></h5>
+                      <p>by <a href="/" className="text-decoration-none">Mark Freeman</a> / 23 May 2017</p>
                     </div>
                   </div>
                   <div className="row blog-row my-3">
                     <div className="col-md-4">
-                      <a href="#"><img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/blog/blog-home/img13.jpg" alt="wrapkit" className="img-fluid" /></a>
+                      <a href="/"><img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/blog/blog-home/img13.jpg" alt="wrapkit" className="img-fluid" /></a>
                     </div>
                     <div className="col-md-8">
-                      <h5><a href="#" className="text-decoration-none">Pellentesque mollis eros quis massa interdum porta et vel.</a></h5>
-                      <p>by <a href="#" className="text-decoration-none">Mark Freeman</a> / 23 May 2017</p>
+                      <h5><a href="/" className="text-decoration-none">Pellentesque mollis eros quis massa interdum porta et vel.</a></h5>
+                      <p>by <a href="/" className="text-decoration-none">Mark Freeman</a> / 23 May 2017</p>
                     </div>
                   </div>
                   <div className="row blog-row my-3">
                     <div className="col-md-4">
-                      <a href="#"><img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/blog/blog-home/img14.jpg" alt="wrapkit" className="img-fluid" /></a>
+                      <a href="/"><img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/blog/blog-home/img14.jpg" alt="wrapkit" className="img-fluid" /></a>
                     </div>
                     <div className="col-md-8">
-                      <h5><a href="#" className="text-decoration-none">Duis vel viverra quamam molesvulputate femy.</a></h5>
-                      <p>by <a href="#" className="text-decoration-none">Mark Freeman</a> / 23 May 2017</p>
+                      <h5><a href="/" className="text-decoration-none">Duis vel viverra quamam molesvulputate femy.</a></h5>
+                      <p>by <a href="/s" className="text-decoration-none">Mark Freeman</a> / 23 May 2017</p>
                     </div>
                   </div>
                 </div>
