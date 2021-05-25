@@ -11,11 +11,9 @@ const Article = ({article, loading, getUser, match}) => {
 
     const {
         title,
-        author,
         description,
         url,
         urlToImage,
-        publishedAt,
         login,
 
     }  = article;

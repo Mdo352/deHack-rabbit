@@ -5,9 +5,7 @@ export default class Chat extends Component{
     render(){
         return(
             <div>
-          <img src="../../assets/img/vibrant-communities.jpg" />
-            <h4 />
-            <h4 className="text-center" id="quote" style={{textAlign: 'center', color: 'rgb(92,94,96)'}} />
+          <img src={communityImg} alt='community volunteers' />
             <div />
             <ul className="nav nav-tabs">
               <li className="nav-item" />
@@ -28,7 +26,7 @@ export default class Chat extends Component{
                         </div>
                         <div className="messages-box">
                           <div className="list-group rounded-0">
-                            <a className="list-group-item list-group-item-action active text-white rounded-0">
+                            <a className="list-group-item list-group-item-action active text-white rounded-0" href='/' >
                               <div className="media"><img src="https://res.cloudinary.com/mhmd/image/upload/v1564960395/avatar_usae7z.svg" alt="user" width={50} className="rounded-circle" />
                                 <div className="media-body ml-4">
                                   <div className="d-flex align-items-center justify-content-between mb-1">
@@ -38,7 +36,7 @@ export default class Chat extends Component{
                                 </div>
                               </div>
                             </a>
-                            <a href="#" className="list-group-item list-group-item-action list-group-item-light rounded-0">
+                            <a href="/" className="list-group-item list-group-item-action list-group-item-light rounded-0">
                               <div className="media"><img src="https://res.cloudinary.com/mhmd/image/upload/v1564960395/avatar_usae7z.svg" alt="user" width={50} className="rounded-circle" />
                                 <div className="media-body ml-4">
                                   <div className="d-flex align-items-center justify-content-between mb-1">
@@ -48,7 +46,7 @@ export default class Chat extends Component{
                                 </div>
                               </div>
                             </a>
-                            <a href="#" className="list-group-item list-group-item-action list-group-item-light rounded-0">
+                            <a href="/" className="list-group-item list-group-item-action list-group-item-light rounded-0">
                               <div className="media"><img src="https://res.cloudinary.com/mhmd/image/upload/v1564960395/avatar_usae7z.svg" alt="user" width={50} className="rounded-circle" />
                                 <div className="media-body ml-4">
                                   <div className="d-flex align-items-center justify-content-between mb-1">
@@ -58,7 +56,7 @@ export default class Chat extends Component{
                                 </div>
                               </div>
                             </a>
-                            <a href="#" className="list-group-item list-group-item-action list-group-item-light rounded-0">
+                            <a href="/" className="list-group-item list-group-item-action list-group-item-light rounded-0">
                               <div className="media"><img src="https://res.cloudinary.com/mhmd/image/upload/v1564960395/avatar_usae7z.svg" alt="user" width={50} className="rounded-circle" />
                                 <div className="media-body ml-4">
                                   <div className="d-flex align-items-center justify-content-between mb-1">
@@ -68,7 +66,7 @@ export default class Chat extends Component{
                                 </div>
                               </div>
                             </a>
-                            <a href="#" className="list-group-item list-group-item-action list-group-item-light rounded-0">
+                            <a href="/" className="list-group-item list-group-item-action list-group-item-light rounded-0">
                               <div className="media"><img src="https://res.cloudinary.com/mhmd/image/upload/v1564960395/avatar_usae7z.svg" alt="user" width={50} className="rounded-circle" />
                                 <div className="media-body ml-4">
                                   <div className="d-flex align-items-center justify-content-between mb-1">
@@ -78,7 +76,7 @@ export default class Chat extends Component{
                                 </div>
                               </div>
                             </a>
-                            <a href="#" className="list-group-item list-group-item-action list-group-item-light rounded-0">
+                            <a href="/" className="list-group-item list-group-item-action list-group-item-light rounded-0">
                               <div className="media"><img src="https://res.cloudinary.com/mhmd/image/upload/v1564960395/avatar_usae7z.svg" alt="user" width={50} className="rounded-circle" />
                                 <div className="media-body ml-4">
                                   <div className="d-flex align-items-center justify-content-between mb-1">
@@ -88,7 +86,7 @@ export default class Chat extends Component{
                                 </div>
                               </div>
                             </a>
-                            <a href="#" className="list-group-item list-group-item-action list-group-item-light rounded-0">
+                            <a href="/" className="list-group-item list-group-item-action list-group-item-light rounded-0">
                               <div className="media"><img src="https://res.cloudinary.com/mhmd/image/upload/v1564960395/avatar_usae7z.svg" alt="user" width={50} className="rounded-circle" />
                                 <div className="media-body ml-4">
                                   <div className="d-flex align-items-center justify-content-between mb-1">
@@ -98,7 +96,7 @@ export default class Chat extends Component{
                                 </div>
                               </div>
                             </a>
-                            <a href="#" className="list-group-item list-group-item-action list-group-item-light rounded-0">
+                            <a href="/" className="list-group-item list-group-item-action list-group-item-light rounded-0">
                               <div className="media"><img src="https://res.cloudinary.com/mhmd/image/upload/v1564960395/avatar_usae7z.svg" alt="user" width={50} className="rounded-circle" />
                                 <div className="media-body ml-4">
                                   <div className="d-flex align-items-center justify-content-between mb-3">
@@ -186,16 +184,18 @@ export default class Chat extends Component{
               <div>
                 <div style={{backgroundColor: 'rgba(58,47,47,0)', backgroundImage: 'url("../../assets/img/footer.png")', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', height: 366}}>
                   <div className="container">
-                    <h1 className="text-center" style={{fontFamily: 'ABeeZee, sans-serif', fontSize: 46, color: 'rgb(0,0,0)'}} />
+                    {/* <h1 className="text-center" style={{fontFamily: 'ABeeZee, sans-serif', fontSize: 46, color: 'rgb(0,0,0)'}} /> */}
                     <hr />
                     <ul className="list-inline" id="text_decoration" style={{marginTop: 30, fontFamily: 'ABeeZee, sans-serif'}}>
-                      <li className="list-inline-item"><a className="decoration" style={{color: 'rgb(0,0,0)', fontSize: 20, marginRight: 10}} href="#">Home</a></li>
-                      <li className="list-inline-item"><a style={{fontSize: 20, color: 'rgb(0,0,0)', marginRight: 10}} href="#">Chat</a></li>
-                      <li className="list-inline-item"><a style={{fontSize: 20, color: 'rgb(0,0,0)', marginRight: 10}} href="#">About</a></li>
-                      <li className="list-inline-item"><a style={{color: 'rgb(0,0,0)', fontSize: 20, marginRight: 10}} href="#">Donation</a></li>
-                      <li className="list-inline-item"><a style={{color: 'rgb(0,0,0)', fontSize: 20}} href="#">News</a></li>
+                      <li className="list-inline-item"><a className="decoration" style={{color: 'rgb(0,0,0)', fontSize: 20, marginRight: 10}} href="/home">Home</a></li>
+                      <li className="list-inline-item"><a style={{fontSize: 20, color: 'rgb(0,0,0)', marginRight: 10}} href="/chat">Chat</a></li>
+                      <li className="list-inline-item"><a style={{fontSize: 20, color: 'rgb(0,0,0)', marginRight: 10}} href="/about">About</a></li>
+                      <li className="list-inline-item"><a style={{color: 'rgb(0,0,0)', fontSize: 20, marginRight: 10}} href="/donate">Donation</a></li>
+                      <li className="list-inline-item"><a style={{color: 'rgb(0,0,0)', fontSize: 20}} href="/news">News</a></li>
                     </ul>
-                    <p className="text-center" style={{marginTop: 30, marginBottom: 15}}><a style={{fontSize: 35, marginRight: 30}} href="#"><i className="fa fa-facebook-square" style={{color: 'rgb(0,0,0)', marginRight: 0}} /></a><a style={{fontSize: 35, marginRight: 30}} href="#"><i className="fa fa-instagram" style={{color: 'rgb(0,0,0)', marginRight: 0}} /></a><a style={{fontSize: 35, marginRight: 30}} href="#"><i className="fa fa-linkedin-square" style={{color: 'rgb(0,0,0)', marginRight: 2}} /></a><a style={{fontSize: 35, marginRight: 30}} href="#" /><a style={{fontSize: 35}} href="#" /></p>
+                    {/* <p className="text-center" style={{marginTop: 30, marginBottom: 15}}><a style={{fontSize: 35, marginRight: 30}} href="#"><i className="fa fa-facebook-square" style={{color: 'rgb(0,0,0)', marginRight: 0}} /></a><a style={{fontSize: 35, marginRight: 30}} href="#"><i className="fa fa-instagram" style={{color: 'rgb(0,0,0)', marginRight: 0}} /></a><a style={{fontSize: 35, marginRight: 30}} href="#"><i className="fa fa-linkedin-square" style={{color: 'rgb(0,0,0)', marginRight: 2}} /></a><a style={{fontSize: 35, marginRight: 30}} href="#" /><a style={{fontSize: 35}} href="#" /></p> */}
+                    <p className="text-center" style={{ marginTop: '30px', marginBottom: '15px' }}><a style={{ fontSize: '35px', marginRight: '30px' }} href="/social"><i className="fa fa-facebook-square" style={{ color: 'rgb(0,0,0)', marginRight: '0px' }}></i></a><a style={{ fontSize: '35px', marginRight: '30px' }} href="/insta"><i className="fa fa-instagram" style={{ color: 'rgb(0,0,0)', marginRight: '0px' }}></i></a><a style={{ fontSize: '35px', marginRight: '30px' }} href="/linkedin"><i className="fa fa-linkedin-square" style={{ color: 'rgb(0,0,0)', marginRight: '2px' }}></i></a></p>
+
                     <p className="text-center" style={{color: 'rgb(193,184,184)', fontFamily: 'ABeeZee, sans-serif', marginBottom: 23}} />
                   </div>
                 </div>

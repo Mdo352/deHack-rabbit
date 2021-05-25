@@ -7,9 +7,9 @@ import footerImg from '../../assets/img/footer.png';
 const Voter = () => {
     return (
         <div>
-            <img src={communityImg} />
-            <h4></h4>
-            <h4 className="text-center" id="quote" style={{ textAlign: 'center', color: 'rgb(92,94,96)' }}></h4>
+            <img src={communityImg} alt='community members voluntering' />
+            {/* <h4></h4> */}
+            {/* <h4 className="text-center" id="quote" style={{ textAlign: 'center', color: 'rgb(92,94,96)' }}></h4> */}
             <div></div>
             <ul className="nav nav-tabs">
                 <li className="nav-item"></li>
@@ -71,7 +71,7 @@ const Voter = () => {
                                     <div className="col-sm-4 label-column"><label className="col-form-label" htmlFor="dropdown-input-field">Gender </label></div>
                                     <div className="col-sm-4 input-column">
                                         <div className="dropdown"><button className="btn btn-light dropdown-toggle" aria-expanded="false" data-toggle="dropdown" type="button">Select </button>
-                                            <div className="dropdown-menu"><a className="dropdown-item" href="#">Female</a><a className="dropdown-item" href="#">Male</a><a className="dropdown-item" href="#">Non-binary</a></div>
+                                            <div className="dropdown-menu"><a className="dropdown-item" href="/">Female</a><a className="dropdown-item" href="/">Male</a><a className="dropdown-item" href="/">Non-binary</a></div>
                                         </div>
                                     </div>
                                 </div>
@@ -94,15 +94,15 @@ const Voter = () => {
                 <div>
                     <div style={{ backgroundColor: 'rgba(58,47,47,0)', backgroundImage: `url(${footerImg})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', height: '366px' }}>
                         <div className="container">
-                            <h1 className="text-center" style={{ fontFamily: 'ABeeZee, sans-serif', fontSize: '46px', color: 'rgb(0,0,0)' }}></h1>
+                            {/* <h1 className="text-center" style={{ fontFamily: 'ABeeZee, sans-serif', fontSize: '46px', color: 'rgb(0,0,0)' }}></h1> */}
                             <ul className="list-inline" id="text_decoration" style={{ marginTop: '30px', fontFamily: 'ABeeZee, sans-serif' }}>
-                                <li className="list-inline-item"><a className="decoration" style={{ color: 'rgb(0,0,0)', fontSize: '20px', marginRight: '10px' }} href="#">Home</a></li>
-                                <li className="list-inline-item"><a style={{ fontSize: '20px', color: 'rgb(0,0,0)', marginRight: '10px' }} href="#">Chat</a></li>
-                                <li className="list-inline-item"><a style={{ fontSize: '20px', color: 'rgb(0,0,0)', marginRight: '10px' }} href="#">About</a></li>
-                                <li className="list-inline-item"><a style={{ color: 'rgb(0,0,0)', fontSize: '20px', marginRight: '10px' }} href="#">Donation</a></li>
-                                <li className="list-inline-item"><a style={{ color: 'rgb(0,0,0)', fontSize: '20px' }} href="#">News</a></li>
+                                <li className="list-inline-item"><a className="decoration" style={{ color: 'rgb(0,0,0)', fontSize: '20px', marginRight: '10px' }} href="/">Home</a></li>
+                                <li className="list-inline-item"><a style={{ fontSize: '20px', color: 'rgb(0,0,0)', marginRight: '10px' }} href="/chat">Chat</a></li>
+                                <li className="list-inline-item"><a style={{ fontSize: '20px', color: 'rgb(0,0,0)', marginRight: '10px' }} href="/about">About</a></li>
+                                <li className="list-inline-item"><a style={{ color: 'rgb(0,0,0)', fontSize: '20px', marginRight: '10px' }} href="/donate">Donation</a></li>
+                                <li className="list-inline-item"><a style={{ color: 'rgb(0,0,0)', fontSize: '20px' }} href="news">News</a></li>
                             </ul>
-                            <p className="text-center" style={{ marginTop: '30px', marginBottom: '15px' }}><a style={{ fontSize: '35px', marginRight: '30px' }} href="#"><i className="fa fa-facebook-square" style={{ color: 'rgb(0,0,0)', marginRight: '0px' }}></i></a><a style={{ fontSize: '35px', marginRight: '30px' }} href="#"><i className="fa fa-instagram" style={{ color: 'rgb(0,0,0)', marginRight: '0px' }}></i></a><a style={{ fontSize: '35px', marginRight: '30px' }} href="#"><i className="fa fa-linkedin-square" style={{ color: 'rgb(0,0,0)', marginRight: '2px' }}></i></a><a style={{ fontSize: '35px', marginRight: '30px' }} href="#"></a><a style={{ fontSize: '35px' }} href="#"></a></p>
+                            <p className="text-center" style={{ marginTop: '30px', marginBottom: '15px' }}><a style={{ fontSize: '35px', marginRight: '30px' }} href="/social"><i className="fa fa-facebook-square" style={{ color: 'rgb(0,0,0)', marginRight: '0px' }}></i></a><a style={{ fontSize: '35px', marginRight: '30px' }} href="/insta"><i className="fa fa-instagram" style={{ color: 'rgb(0,0,0)', marginRight: '0px' }}></i></a><a style={{ fontSize: '35px', marginRight: '30px' }} href="/linkedin"><i className="fa fa-linkedin-square" style={{ color: 'rgb(0,0,0)', marginRight: '2px' }}></i></a></p>
                         </div>
                     </div>
                 </div>

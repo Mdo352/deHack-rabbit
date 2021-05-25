@@ -16,8 +16,6 @@ import BudgetState from './context/budget/BudgetState';
 import Voter from './components/pages/Voter';
 import Projects from './components/pages/Projects';
 import Alert from './components/layout/Alert';
-import Article from './components/articles/Article'
-import Articles from './components/articles/Articles'
 
 //css files
 import './App.css';
@@ -47,7 +45,6 @@ const App = () => {
   console.log(process.env)
   console.log('test')
 
-  const [news, setNews] = useState([]);
   const [article, setArticle] = useState({});
   const [loading, setLoading] = useState(false);
   // const [repos, setRepos] = useState([]);
