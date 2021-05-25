@@ -53,7 +53,8 @@ const App = () => {
   const searchNews =  async text => {
     setLoading(true);
 
-    const res = await axios.get(`https://newsapi.org/v2/top-headlines?country=us&apiKey=${process.env.REACT_APP_API_KEY}`);
+    // const res = await axios.get(`https://newsapi.org/v2/top-headlines?country=us&apiKey=${process.env.REACT_APP_API_KEY}`);
+    const res = await axios.get(`https://newsapi.org/v2/top-headlines?country=us&apiKey=344008a4ec8e49938022b129569d1f88`);
 
     setArticle(res.data.articles);
     setLoading(false)
