@@ -1,5 +1,7 @@
 
   import React from 'react'
+  import Budgets from '../budgets/Budgets';
+  import BudgetForm from '../budgets/BudgetForm'
 
   import communityImg from '../../assets/img/community.png';
   import deskImg from '../../assets/img/desk.jpg';
@@ -11,6 +13,14 @@
   const Projects = () => {
   return (
     <div>
+
+    {/* <div>
+      <BudgetForm />
+    </div>
+    <div>
+      <Budgets />
+    </div> */}
+
       <div>
   <img src={communityImg} alt='community volunteers' />
   {/* <h4 className="text-center" id="quote" style={{textAlign: 'center', color: 'rgb(92,94,96)'}} /> */}
@@ -19,12 +29,21 @@
     <li className="nav-item" />
   </ul>
   <div className="card" />
+
   <section className="projects-horizontal">
     <div className="container">
       <div className="intro">
         <h2 className="text-center">Projects </h2>
         <p className="text-center">We create and support participatory budgeting processes that deepen democracy, build stronger communities, and make public budgets more equitable and effective.</p>
       </div>
+
+      <div>
+      <BudgetForm />
+    </div>
+    <div>
+      <Budgets />
+    </div>
+
       <div className="row projects">
         <div className="col-sm-6 item">
           <div className="row">
@@ -59,6 +78,7 @@
             </div>
           </div>
         </div>
+
         <div className="col-sm-6 item">
           <div className="row">
             <div className="col-md-12 col-lg-5"><a href="/"><img className="img-fluid" src={minibusImg} alt='transit trolley' /></a></div>
@@ -71,8 +91,10 @@
           </div>
         </div>
       </div>
+
     </div>
   </section>
+
   <p style={{textAlign: 'left', fontSize: 25}}><strong>Timeline</strong></p>
   <div />
   <div className="container">
@@ -144,7 +166,9 @@
           </div>
         </div>
       </div>
-      </div>
+
+
+    </div>
 
       )
      }
