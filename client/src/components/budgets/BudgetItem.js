@@ -7,7 +7,7 @@ const BudgetItem = ({budget}) => {
 
     const { deleteBudget, setCurrent, clearCurrent } = budgetContext;
 
-    const {id, name, website, email} = budget;
+    const {id, name, city, money, website, email, bio} = budget;
 
     const onDelete = () => {
         deleteBudget(id);
@@ -19,12 +19,16 @@ const BudgetItem = ({budget}) => {
             <h3 className='text-primary text-left'>
                 {name} {' '}
             </h3>
+            <h4>`{city} &nbsp; {money}`</h4>
             <ul className='list'>
                 {email && (<li>
                     <i className='fas fa-envelope-open'></i> {email}
                 </li>)}
                 {website && (<li>
                     <i className='fas fa-desktop'></i> {website}
+                </li>)}
+                {bio && (<li>
+                    {bio}
                 </li>)}
             </ul>
             <p>

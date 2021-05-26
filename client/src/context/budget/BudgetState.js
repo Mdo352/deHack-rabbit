@@ -18,20 +18,38 @@ const BudgetState = props => {
             {
                 id: 1,
                 name: 'Housing',
+                city: 'Dorchester, MA',
+                money: '$100,000',
                 email: 'house@yahoo.com',
-                website: 'massHousing.com'
+                website: 'massHousing.com',
+                bio: 'Housing is one of the biggest challenges that we face—looking at affordable housing.'
             },
             {
                 id: 2,
-                name: 'Canibis',
-                email: 'ccb@mass.gov',
-                website: 'stoned.com'
+                name: 'Side Walks',
+                city: 'Everett, MA',
+                money: '$230,000',
+                email: 'facilities@mass.gov',
+                website: 'bostonpublicworks.com',
+                bio: 'Residents can vote to get sidewalks, alleys and streets resurfaced. Look at what projects we are working on.'
             },
             {
                 id: 3,
-                name: 'Food',
-                email: 'nomnomnom@eat.com',
-                website: 'snickers.com'
+                name: 'Street Maintenence',
+                city: 'Roxbury, MA',
+                money: '$140,000',
+                email: 'sanitation@boston.com',
+                website: 'streetsweep.com',
+                bio: 'We know that protecting the safety and well-being of all of our communities means investing in safe roads'
+            },
+            {
+                id: 4,
+                name: 'Public Restrooms',
+                city: 'Boston, MA',
+                money: '$150,000',
+                email: 'sanitation@boston.com',
+                website: 'streetsweep.com',
+                bio: 'This proposal aims to build a third standalone outdoor public toilet in a high foot traffic area.'
             }
         ],
         current: null
@@ -61,6 +79,9 @@ const BudgetState = props => {
     };
 
     // Update Budget
+    const updateBudget = budget => {
+        dispatch({ type:UPDATE_BUDGET, payload: budget });
+    };
 
     // Filter Budgets
 
@@ -74,7 +95,8 @@ const BudgetState = props => {
                 addBudget,
                 deleteBudget,
                 setCurrent,
-                clearCurrent
+                clearCurrent,
+                updateBudget
             }}
         >
             { props.children}

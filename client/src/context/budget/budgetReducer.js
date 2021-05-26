@@ -8,12 +8,18 @@ import {
     CLEAR_FILTER
 } from '../types';
 
-export default ( state, action ) => {
+// export default ( state, action ) => {
+const budgetReducer = ( state, action ) => {
     switch(action.type) {
         case ADD_BUDGET:
             return {
                 ...state,
                 budgets: [...state.budgets, action.payload]
+            };
+        case UPDATE_BUDGET:
+            return {
+                ...state,
+                budgets: state.budgets.map(budget => budget.id === action.payload.id ? action.payload : budget)
             };
         case DELETE_BUDGET:
             return {
@@ -34,3 +40,5 @@ export default ( state, action ) => {
             return state;
     }
 }
+
+export default budgetReducer;
